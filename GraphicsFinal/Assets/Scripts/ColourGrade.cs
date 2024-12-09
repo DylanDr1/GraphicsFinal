@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ColourGrade : MonoBehaviour
 {
-    public Shader awesomeShader;
+    public Shader Shader;
     public Material m_renderMaterial;
     public Material ColourGradeClean;
     public Material ColourGrading;

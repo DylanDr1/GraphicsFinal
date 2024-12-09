@@ -1095,7 +1095,6 @@ GameObject:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
-  - component: {fileID: 963194229}
   - component: {fileID: 963194230}
   m_Layer: 0
   m_Name: Main Camera
@@ -1170,22 +1169,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!123 &963194229
-LensFlare:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
-  m_Flare: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_Brightness: 1
-  m_FadeSpeed: 3
-  m_IgnoreLayers:
-    serializedVersion: 2
-    m_Bits: 6
-  m_Directional: 0
 --- !u!114 &963194230
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1198,7 +1181,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf07428d35df73242afa4c40ab7346cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  awesomeShader: {fileID: 4800000, guid: fdd0a004424224d49b9cf36447488341, type: 3}
+  Shader: {fileID: 4800000, guid: fdd0a004424224d49b9cf36447488341, type: 3}
   m_renderMaterial: {fileID: 2100000, guid: a1a15e8595e39804d9ca0215295310cd, type: 2}
   ColourGradeClean: {fileID: 2100000, guid: a1a15e8595e39804d9ca0215295310cd, type: 2}
   ColourGrading: {fileID: 2100000, guid: 9084e63091b84be4a93343ed4add3b3a, type: 2}
@@ -1214,7 +1197,7 @@ GameObject:
   - component: {fileID: 1025819258}
   - component: {fileID: 1025819257}
   m_Layer: 0
-  m_Name: Retopo_24K
+  m_Name: Yoshi
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
